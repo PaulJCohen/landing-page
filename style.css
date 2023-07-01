@@ -1,14 +1,13 @@
-@import url();
 
 body {
 display: flex;
 flex-direction: column;
 margin: 0;
 min-height: 100vh;
-font-family: Roboto, sans-serif;
+font-family: 'Roboto', sans-serif;
 }
 .header-hero-wrapper { 
-    background-color: #F2937;
+    background-color: rgb(170, 170, 33);
 }
 .header {
     display: flex;
@@ -65,7 +64,7 @@ h1 {
 color: #E5E7EB;
 }
 .sing-up-button {
-    background-color: #072dd6;
+    background-color: pink;
     font-weight: 900;
     padding: 5px 20px;
     border-radius: 5px;
@@ -73,4 +72,40 @@ color: #E5E7EB;
 }
 .hero-image {
     width: 600px;
+}
+.cards-wrapper {
+    margin: 100px;
+}
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    margin-top: 50px;
+}
+.plan-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card-image {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 10px;
+    border: solid #072dd6;
+}
+.card-subtext {
+    text-align: center;
+    margin-top: -15px;
+}
+.Guide-dev-plan-image{
+
+    height: 200px;
+    width: 200px;    
+}
+.networking-dev-plan-image {
+    height: 200px;
+    width: 200px;     
 }
