@@ -120,10 +120,30 @@ h2 {
 }
 .quote-wrapper {
     background-color: #E5E7EB;
+   
 }
 .quote-container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin: 100px;
-    padding-left: 400px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+
+}
+.quote-text {
+    font-size: 36px;
+    font-weight: 200;
+    font-style: italic;
+color: #072dd6;
+}
+
+
+.quote-author {
+    font-weight: 900;
+    align-self: flex-end;  
+}
+.plan-wrapper {
+margin-bottom: 30px;
+
 }
