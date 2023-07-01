@@ -145,5 +145,50 @@ color: #072dd6;
 }
 .plan-wrapper {
 margin-bottom: 30px;
+}
 
+.call-to-action-container {
+background-color: #072dd6;
+display: flex;
+justify-content: space-around;
+align-items: center;
+margin-left: 300px;
+margin-right: 300px;
+border-radius: 10px;
+padding: 50px;
+}
+
+h3 {
+    color: #70c51b;
+    padding: 0px;
+    margin: 0px;
+}
+
+.call-to-action-text {
+    color: #F9FAF8;
+    padding: 0px;
+    margin: 0px;
+}
+
+.sing-up-button-second {
+    background-color: rgb(137, 20, 211);
+    font-weight: 900;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 2px;  
+    justify-content: flex-end;
+    display: flex;
+}
+
+.footer-wrapper{
+    background-color: burlywood;
+}
+
+.footer-text {
+display: flex;
+align-items: center;
+justify-content: center;
+margin: 10px;
+font-size: 20px;
+color: #F9FAF8;
 }
