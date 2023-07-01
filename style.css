@@ -98,7 +98,7 @@ h2 {
 }
 .card-subtext {
     text-align: center;
-    margin-top: -15px;
+    margin-top: 15px;
 }
 .Guide-dev-plan-image{
 
@@ -108,4 +108,22 @@ h2 {
 .networking-dev-plan-image {
     height: 200px;
     width: 200px;     
+}
+.trading-chart-dev-image {
+    height: 200px;
+    width: 200px;  
+    
+}
+.plan-dev-trading_insights-image {
+    height: 200px;
+    width: 200px;  
+}
+.quote-wrapper {
+    background-color: #E5E7EB;
+}
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    padding-left: 400px;
 }
